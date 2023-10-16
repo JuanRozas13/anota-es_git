@@ -1,0 +1,124 @@
+					Aula 1 dia 02/10
+Git e GitHub são totalmente diferentes
+
+Github vai ser nossa nuvem
+onde vamos poder compartilhar nosso projeto
+com a nossa equipe
+
+ambiente de trabalho compartilhado além de backup
+
+Git ele vai ser responsavel por mandar informações para
+nuvens e puxar as informações da nuvems 
+
+ele é responsavel por fazer as ligações entre o pc e a nuvem no caso "Github"
+
+
+importante
+ctrl+c e ctrl+v não funcionam no git
+
+o amarelo no git ele mostra o caminho da pasta
+
+
+comandos
+clear: esse comando ele limpa as informações sem apagar as informações
+
+dir: esse comando mostra quantos arquivos temos na pasta em que estamos mexendo
+
+cd .. : ele volta uma pasta anterior da que vc esta 
+exemplo: aula parças / aula 1 padrão 
+	 aula parças  aplicando o cd ..
+
+para voltar para a pasta devemos usa o:
+	 cd aula 1 
+
+					Aula 2 e 3 dia 03/10
+obeservação:
+
+pc para git= add/commit
+
+porém antes do commit temos que fazer um add para
+montar nosso pacote para mandarmos para o git 
+
+git para github= push
+
+github para git= pull
+
+git: servidor local
+
+
+para ter uma conexão do pc e do git é preciso usar um comando chamado 
+git init
+
+comandos:
+1-git init: ele estabelece a conexão entre o pc eo git
+
+2-git status: ele vai verificar se o pc esta com a mesma versão que o 
+pct de informação e se o pct de informação esta com a mesma versãoque o git
+
+3-git add: quando formos fazer um pacote de informação para mandarmos para o git
+nos fazemos um add
+
+4-git add ele serve para podermos atualizar nossas alterações 
+que fizermos no nosso arquivo da pasta/adiciona toda alteração que foi feita 
+no seu pc para o pct de informação
+
+5-git add -A : ele monta o pacote de informação
+
+6-git  diff: ele faz um resumo de tudo que foi alterado
+se vc muda linhas do codigo ele te mostra o que foi alterado
+
+7-git diff --name-only: me mostre somente o nome dos arquivos que foi aterados
+
+8-git commit -m "rimeiro commit"	
+
+9-git config --global user.name "juan": esse comando ele serve para vc colocar seu nome 
+para o git saber quem é vc
+
+10-git config user.name : esse comando ele serve para mostra seu nome como foi configurado
+
+11-git config --global user.email "exemplo@gmail.com":
+esse comando serve para configurar o git com sua informação/ vc colocar seu nome 
+para o git saber quem é vc
+
+12-git config user.email : esse comando ele serve para mostra seu email como foi configurado
+
+
+					Aula 4 dia 05/10
+observações:
+se os comandos estiverem em dia com o git quando vc der o comando 
+git commit -m "" ele vai aparecer uma mensagem simples sem mostrar 
+o que foi adicionado na pasta
+
+comandos:
+1- git log: esse comando mostra o historicos de commit de cima para baixo
+os commits mais antigos e os mais recentes
+
+2- git reset --hard "codigo do commit que vc quer recuperar para o pc":
+
+
+
+					Aula 5 dia 06/10 pasta aula 7
+
+observações:
+
+comandos:
+1- git reset --soft "": ele só vai resetar o seu commit e não todo o arquivo feito"
+
+					Aula 6 dia 09/10 pasta aula 8
+observação:para enviar apenas um arquivo da pasta caso tenha dois 
+e vc queira mandar apenas um para o pct de informações vc só precisa escreva
+o codigo git add texte.txt.
+
+comando: 
+
+1- git remote add origin https://github.com/JuanRozas13/Aprendendo-Github.git
+para conectar o seu pc com a nuvem fazer ligação do git com github
+
+2- git push -u origin master : empurre tudo que esta no meu git 
+para o github
+
+git 
+push: empurrar
+-u: só faz
+origin: origem para onde vamos mandar / github
+master: lugar que vamos mandar / git

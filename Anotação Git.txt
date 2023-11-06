@@ -122,3 +122,9 @@ push: empurrar
 -u: só faz
 origin: origem para onde vamos mandar / github
 master: lugar que vamos mandar / git
+
+					Aula 11 dia 16/10
+
+comando
+git  pull origin master
+git clone 
